@@ -72,4 +72,8 @@ shadowJar {
     archiveFileName = 'tran$act.jar'
 }
 
+run {
+    enableAssertions = true
+}
+
 defaultTasks 'clean', 'test'
